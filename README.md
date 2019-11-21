@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>UrFuture</title>
+  <title>Warwick Foodies</title>
   </head>
   <body>
-   <h1>UrFuture </h1>
+   <h1>Your Ultimate Guide to eat at Warwick Univeristy</h1>
    <p>
    </p>
   </body>
