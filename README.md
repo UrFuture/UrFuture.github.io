@@ -1,5 +1,4 @@
-# WarwickFoodies.github.io-master
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Warwick Foodies</title>
