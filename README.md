@@ -1,104 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Warwick Foodies</title>
-    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="WarwickFoodies.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <meta name="description" content="Warwick Ultimate Food Guide">
+    <meta name="author" content="Winnis Chan">
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! -->
 
     <!-- Custom styles for this template -->
-
+<link rel="stylesheet" href="WarwickFoodies.css">
 
   </head>
 
-  <body>
+<body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">WarwickFoodies</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">WarwickFoodies</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-           <button type="button" class="btn btn-secondary">About Us</button>
-
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Restaurants
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">Canopy</a>
-                <a class="dropdown-item" href="#">Fusion</a>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Feeds</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Top Recommedations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Canopy</a>
+            <a class="dropdown-item" href="#">Varsity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Fusion</a>
           </div>
-             <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Campus Café
-            </button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-               <a class="dropdown-item" href="#">NAIC Café</a>
-               <a class="dropdown-item" href="#">WBS Café</a>
-               <a class="dropdown-item" href="#">Univeristy House Café</a>
-               <a class="dropdown-item" href="#">Arts Centre Café</a>
-               <a class="dropdown-item" href="#">Café Gibbet Hill</a>
-               <a class="dropdown-item" href="#">Café Humanities</a>
-               <a class="dropdown-item" href="#">Café Library</a>
-               <a class="dropdown-item" href="#">Café social</a>
-               <a class="dropdown-item" href="#">Library Coffee Bar</a>
-               <a class="dropdown-item" href="#">Café Oculus</a>
-               <a class="dropdown-item" href="#">Graduate</a>
-               <a class="dropdown-item" href="#">Curiositea</a>
-          </div>
-          </div>
-
-          <div class="btn-group" role="group">
-          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Chain Café
-          </button>
-               <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-               <a class="dropdown-item" href="#">Pret A Manger</a>
-               <a class="dropdown-item" href="#">Caffe Nero</a>
-               <a class="dropdown-item" href="#">Aroma</a>
-             </div>
-            </div>
-
-            <div class="btn-group" role="group">
-            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Pub Time?
-            </button>
-                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                 <a class="dropdown-item" href="#">Dirty Duck</a>
-                 <a class="dropdown-item" href="#">Terrance Bar</a>
-               </div>
-              </div>
-
-              <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Grab & Go!
-              </button>
-                   <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                   <a class="dropdown-item" href="#">Red Rocket</a>
-                   <a class="dropdown-item" href="#">The Bread Oven</a>
-                 </div>
-                </div>
-        </ul>
-      </div>
-    </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Explore</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
 
 
-    <div class="jumbotron">
+    <div id="box1" class="jumbotron">
       <h1 class="display-8">Welcome Warwickers :)</h1>
       <p class="lead">New to Warwick? Struggle to find what to eat? Welcome to your ultimate food guide on campus!!</p>
       <hr class="my-4">
@@ -107,7 +67,7 @@
     </div>
   </div>
 
-    <div class="jumbotron">
+    <div id="box2" class="jumbotron">
       <h2 class="display-8">Just exploring?</h2>
       <p>Find all you need to know here!</p>
       <a class="btn btn-secondary btn-lg btn-block" href="#" role="button">Cozy Café</a>
@@ -275,7 +235,7 @@
 <form action="/html/tags/html_form_tag_action.cfm" method="post">
 <div>
 <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-We would love to hear your feedback! Say something! 
+We would love to hear your feedback! Say something!
 </textarea>
 </div>
 <input type="submit" value="Submit">
@@ -286,7 +246,13 @@ We would love to hear your feedback! Say something!
      <p>Contact Us
      </p>
    </div>
-
+   <!-- Bootstrap core JavaScript
+   ================================================== -->
+   <!-- Placed at the end of the document so the pages load faster -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+   <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+   <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
   </body>
   </html>
