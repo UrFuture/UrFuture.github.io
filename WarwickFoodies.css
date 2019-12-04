@@ -2,10 +2,10 @@ body{
 
   background-image: url("Index_images/background_web.jpg");
   background-repeat:round;
-  background-size: contain;
-  background-attachment: scroll;
-  margin: 50px;
-  padding: 100px;
+  background-size:contain;
+  background-attachment:scroll;
+  margin:50px;
+  padding:100px;
 }
 
 .navbar{
@@ -13,8 +13,8 @@ padding-left:-50px;
 }
 
 ul {
-list-style-type: decimal-leading-zero;;
-margin: 100px
+list-style-type: decimal-leading-zero;
+margin: 100px;
 padding: 100px
 }
 *{
