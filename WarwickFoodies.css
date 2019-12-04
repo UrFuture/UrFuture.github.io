@@ -7,11 +7,6 @@ body{
   padding: 100px;
 }
 
-ul {
-list-style-type: decimal-leading-zero;
-margin: 100px;
-padding: 100px
-}
 *{
 box-sizing: border-box;
 }
