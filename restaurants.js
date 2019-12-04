@@ -1,5 +1,5 @@
 $('.fullBackground').fullClip({
-  images: [background_web.jpg]
+  images: [Index_images/background_web.jpg]
 });
 
 
