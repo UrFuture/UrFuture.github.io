@@ -293,19 +293,25 @@
 
 
 
-    <div id="Feedback">
-     <p>Feedback</p>
-<form action="/html/tags/html_form_tag_action.cfm" method="post">
-<div>
-<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-We would love to hear your feedback! Say something!
-</textarea>
-</div>
-<input type="submit" value="Submit" href="#">
+   <div id="Feedback">
+   <p>Feedback</p>
+<form action="URL to form script" method="POST">
+
+Your name: <br>
+<input type="text" name="realname"><br>
+<br>
+
+Your email: <br>
+<input type="text" name="email"><br>
+<br>
+
+Your comments: <br>
+<textarea name="comments" rows="15" cols="50"></textarea><br><br>
+
+<input type="submit" value="Submit">
+ 
 </form>
 </div>
-
-
    <!-- Bootstrap core JavaScript
    ================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
