@@ -3,8 +3,9 @@ body{
   background-repeat: round;
   background-size: contain;
   background-attachment: scroll;
-  margin: 50px;
+  margin: 80px;
   padding: 20px;
+  padding-right: 10px;
 }
 
 *{
