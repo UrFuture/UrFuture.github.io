@@ -8,10 +8,6 @@ body{
   padding:100px;
 }
 
-.navbar{
-padding-left:-50px;
-}
-
 ul {
 list-style-type: decimal-leading-zero;
 margin: 100px;
