@@ -1,11 +1,10 @@
 body{
-
   background-image: url("Index_images/background_web.jpg");
-  background-repeat:round;
-  background-size:contain;
-  background-attachment:scroll;
-  margin:50px;
-  padding:100px;
+  background-repeat: round;
+  background-size: contain;
+  background-attachment: scroll;
+  margin: 50px;
+  padding: 100px;
 }
 
 ul {
@@ -116,11 +115,7 @@ color:white;
 font-style:italic;
 text-align: center;
 }
-#ContactUs{
-background-color: black;
-color:white;
-font-style:italic;
-}
+
 #Feedback{
 background-color: black;
 color:white;
@@ -139,6 +134,3 @@ font-style:italic;
      @include text-hide;
    }
 
-.selector-for-some-widget {
-     box-sizing: content-box;
-   }
